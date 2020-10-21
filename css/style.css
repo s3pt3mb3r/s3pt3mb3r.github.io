@@ -44,14 +44,14 @@ header div {
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
-  border: 0.4rem solid #FCF9E9;
+  border: 0.4rem solid #DB3339;
   margin-right: 1rem;
 }
 
 .name {
   font-family: 'Permanent Marker', cursive;
-  font-size: 3rem;
-  color: #83BEBD;
+  font-size: 4rem;
+  color: #FCF9E9;
 }
 
 .socials {
@@ -74,8 +74,12 @@ header div {
   margin-right: 0;
 }
 
+anime-cover-pre {
+  background: #0b76b8;
+}
+
 .cover-1 {
-  width: 5rem;
+  width: 0rem;
   height: 5rem;
   background: #333333;
   display: -webkit-box;
@@ -99,10 +103,21 @@ header div {
   display: inline-block;
   width: 3rem;
   height: 3rem;
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 430ms;
+          animation-delay: 430ms;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .cover-2 {
-  width: 5rem;
+  width: 0rem;
   height: 5rem;
   background: #1da1f2;
   display: -webkit-box;
@@ -126,10 +141,21 @@ header div {
   display: inline-block;
   width: 3rem;
   height: 3rem;
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 430ms;
+          animation-delay: 430ms;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .cover-3 {
-  width: 5rem;
+  width: 0rem;
   height: 5rem;
   background: #7289da;
   display: -webkit-box;
@@ -153,10 +179,21 @@ header div {
   display: inline-block;
   width: 3rem;
   height: 3rem;
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 430ms;
+          animation-delay: 430ms;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .cover-4 {
-  width: 5rem;
+  width: 0rem;
   height: 5rem;
   background: #1b2838;
   display: -webkit-box;
@@ -180,10 +217,21 @@ header div {
   display: inline-block;
   width: 3rem;
   height: 3rem;
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 430ms;
+          animation-delay: 430ms;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .cover-5 {
-  width: 5rem;
+  width: 0rem;
   height: 5rem;
   background: #1db954;
   display: -webkit-box;
@@ -207,5 +255,42 @@ header div {
   display: inline-block;
   width: 3rem;
   height: 3rem;
+  opacity: 0;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 430ms;
+          animation-delay: 430ms;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem);
+  }
+  to {
+    opacity: 100;
+    -webkit-transform: translateX(0rem);
+            transform: translateX(0rem);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem);
+  }
+  to {
+    opacity: 100;
+    -webkit-transform: translateX(0rem);
+            transform: translateX(0rem);
+  }
 }
 /*# sourceMappingURL=style.css.map */

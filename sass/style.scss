@@ -31,14 +31,14 @@ header div { //aligning the icon and the name
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
-  border: 0.4rem solid $white_like;
+  border: 0.4rem solid $red;
   margin-right: 1rem;
 }
 
 .name {
   font-family: 'Permanent Marker', cursive;
-  font-size: 3rem;
-  color: $bright_blue;
+  font-size: 4rem;
+  color: $white_like;
 }
 
 //////////////////////////////BODY////////////////////////////////
@@ -55,11 +55,15 @@ header div { //aligning the icon and the name
   }
 }
 
+anime-cover-pre {
+  background: #0b76b8;
+}
+
 $colors: #333333, #1da1f2, #7289da, #1b2838, #1db954;
 $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img/steam.svg", "../img/spotify.svg";
 @for $i from 1 through 5 {
   .cover-#{$i} {
-    width: 5rem;
+    width: 0rem;
     height: 5rem;
     background: nth($colors, $i);
     display: flex;
@@ -72,6 +76,23 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
       display: inline-block;
       width: 3rem;
       height: 3rem;
+      opacity: 0;
+      animation-name: fadeIn;
+      animation-timing-function: ease-out;
+      animation-delay: 430ms;
+      animation-duration: 350ms;
+      animation-fill-mode: forwards;
     }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-1rem);
+  }
+  to {
+    opacity: 100;
+    transform: translateX(0rem);
   }
 }
