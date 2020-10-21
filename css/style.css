@@ -23,6 +23,24 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #1E1D1F;
+  position: relative;
+}
+
+.base {
+  position: absolute;
+  width: 50rem;
+  height: 20rem;
+  background: #444F50;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.base-cover {
+  z-index: 2;
+}
+
+header, main {
+  z-index: 1;
 }
 
 header {

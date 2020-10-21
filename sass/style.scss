@@ -16,7 +16,27 @@ body {
   justify-content: center;
   align-items: center;
   background: $background;
+  position: relative;
 }
+
+.base {
+  position: absolute;
+  width: 50rem;
+  height: 20rem;
+  background: $blue_gray;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.base-cover {
+  z-index: 2;
+}
+
+header, main {
+  z-index: 1;
+}
+
+//////////////////////////////HEADER////////////////////////////////
 
 header {
   margin-bottom: 2rem;
