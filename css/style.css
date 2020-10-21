@@ -28,18 +28,16 @@ body {
 
 .base {
   position: absolute;
-  width: 50rem;
+  width: 0rem;
   height: 20rem;
   background: #444F50;
   border-radius: 8px;
   z-index: 0;
-}
-
-.base-cover {
-  z-index: 2;
+  margin-right: 50rem;
 }
 
 header, main {
+  opacity: 0%;
   z-index: 1;
 }
 
@@ -67,7 +65,7 @@ header div {
 }
 
 .name {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Sriracha', cursive;
   font-size: 4rem;
   color: #FCF9E9;
 }
@@ -90,10 +88,6 @@ header div {
 
 .social:last-child {
   margin-right: 0;
-}
-
-anime-cover-pre {
-  background: #0b76b8;
 }
 
 .cover-1 {

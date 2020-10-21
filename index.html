@@ -14,10 +14,9 @@
   integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
   crossorigin="anonymous">
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- <div class="base base-cover"></div> -->
   <div class="base"></div>
   <header>
     <div>
@@ -55,7 +54,23 @@
     </div>
   </main>
   <script>
-    anime({
+    var basicTimeline = anime.timeline();
+    basicTimeline.add({
+      targets: ".base",
+      duration: 700,
+      width: "50rem",
+      translateX: "25rem",
+      delay: 0,
+      easing: "easeOutSine",
+    })
+    .add({
+      targets: "header, main",
+      duration: 200,
+      opacity: "100%",
+      delay: 0,
+      easing: "easeInSine",
+    })
+    .add({
       targets: ".anime-cover",
       duration: 100,
       width: "5rem",
