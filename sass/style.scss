@@ -48,13 +48,30 @@ header div { //aligning the icon and the name
   flex-direction: row;
 }
 
-$colors: #333333, #1da1f2, #7289da, #1b2838, #1db954;
-
-@for $i from 1 through 5 {
-  .cover-#{$i} {
-    width: 4rem;
-    height: 4rem;
-    background: nth($colors, $i);
+.social {
+  margin-right: 2rem;
+  &:last-child {
+    margin-right: 0;
   }
 }
 
+$colors: #333333, #1da1f2, #7289da, #1b2838, #1db954;
+$icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img/steam.svg", "../img/spotify.svg";
+@for $i from 1 through 5 {
+  .cover-#{$i} {
+    width: 5rem;
+    height: 5rem;
+    background: nth($colors, $i);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      content: "";
+      background-image: url(nth($icons, $i));
+      background-size: 3rem 3rem;
+      display: inline-block;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}

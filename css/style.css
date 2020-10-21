@@ -66,33 +66,146 @@ header div {
           flex-direction: row;
 }
 
+.social {
+  margin-right: 2rem;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
 .cover-1 {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover-1::after {
+  content: "";
+  background-image: url("../img/github.svg");
+  background-size: 3rem 3rem;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
 }
 
 .cover-2 {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background: #1da1f2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover-2::after {
+  content: "";
+  background-image: url("../img/twitter.svg");
+  background-size: 3rem 3rem;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
 }
 
 .cover-3 {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background: #7289da;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover-3::after {
+  content: "";
+  background-image: url("../img/discord.svg");
+  background-size: 3rem 3rem;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
 }
 
 .cover-4 {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background: #1b2838;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover-4::after {
+  content: "";
+  background-image: url("../img/steam.svg");
+  background-size: 3rem 3rem;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
 }
 
 .cover-5 {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   background: #1db954;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover-5::after {
+  content: "";
+  background-image: url("../img/spotify.svg");
+  background-size: 3rem 3rem;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
