@@ -1,0 +1,60 @@
+$background: #1E1D1F;
+$blue_gray: #444F50;
+$bright_blue: #83BEBD;
+$white_like: #FCF9E9;
+$red: #DB3339;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $background;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header div { //aligning the icon and the name
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  border: 0.4rem solid $white_like;
+  margin-right: 1rem;
+}
+
+.name {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  color: $bright_blue;
+}
+
+//////////////////////////////BODY////////////////////////////////
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+$colors: #333333, #1da1f2, #7289da, #1b2838, #1db954;
+
+@for $i from 1 through 5 {
+  .cover-#{$i} {
+    width: 4rem;
+    height: 4rem;
+    background: nth($colors, $i);
+  }
+}
+
