@@ -24,7 +24,7 @@ body {
   width: 0rem;
   height: 20rem;
   background: $blue_gray;
-  border-radius: 8px;
+  border-radius: 5px;
   z-index: 0;
   margin-right: 50rem;
 }
@@ -83,6 +83,7 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 3px;
     &::after {
       content: "";
       background-image: url(nth($icons, $i));

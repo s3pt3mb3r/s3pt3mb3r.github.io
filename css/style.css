@@ -31,7 +31,7 @@ body {
   width: 0rem;
   height: 20rem;
   background: #444F50;
-  border-radius: 8px;
+  border-radius: 5px;
   z-index: 0;
   margin-right: 50rem;
 }
@@ -106,6 +106,7 @@ header div {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 3px;
 }
 
 .cover-1::after {
@@ -144,6 +145,7 @@ header div {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 3px;
 }
 
 .cover-2::after {
@@ -182,6 +184,7 @@ header div {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 3px;
 }
 
 .cover-3::after {
@@ -220,6 +223,7 @@ header div {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 3px;
 }
 
 .cover-4::after {
@@ -258,6 +262,7 @@ header div {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 3px;
 }
 
 .cover-5::after {
