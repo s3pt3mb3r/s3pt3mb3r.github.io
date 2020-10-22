@@ -81,6 +81,7 @@ header div { //aligning the icon and the name
   font-family: 'Lily Script One', cursive;
   font-size: 4rem;
   color: $bright_blue;
+  user-select: none;
 }
 
 //////////////////////////////SOCIALWRAPPER////////////////////////////////
@@ -156,13 +157,22 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
 
 .skillset {
   margin: 0;
+  padding: 0;
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 600;
   font-size: 3rem;
+  user-select: none;
   color: $background;
-  padding: 0;
   background: #b4d1c1;
+}
+
+.fa-spider {
+  transition-property: color;
+  transition-duration: 200ms;
+  &:hover {
+    color: $red;
+  }
 }
 
 ul {
@@ -177,4 +187,5 @@ ul {
   font-weight: 500;
   color:  #333333;
   font-size: 2rem;
+  user-select: none;
 }

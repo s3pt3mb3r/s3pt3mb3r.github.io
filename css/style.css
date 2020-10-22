@@ -108,6 +108,10 @@ header div {
   font-family: 'Lily Script One', cursive;
   font-size: 4rem;
   color: #83BEBD;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .socials {
@@ -376,13 +380,28 @@ header div {
 
 .skillset {
   margin: 0;
+  padding: 0;
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 600;
   font-size: 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   color: #1E1D1F;
-  padding: 0;
   background: #b4d1c1;
+}
+
+.fa-spider {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.fa-spider:hover {
+  color: #DB3339;
 }
 
 ul {
@@ -397,5 +416,9 @@ ul {
   font-weight: 500;
   color: #333333;
   font-size: 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 /*# sourceMappingURL=style.css.map */
