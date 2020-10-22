@@ -361,6 +361,7 @@ header div {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-top: .1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -368,24 +369,33 @@ header div {
           flex-direction: column;
   width: 48.5rem;
   height: 20rem;
-  border: 0.7rem solid #444F50;
+  border: 0.7rem solid  #b4d1c1;
+  background: #b4d1c1;
   border-radius: 5px;
 }
 
 .skillset {
-  margin: -1px 0 0 0;
+  margin: 0;
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
-  color: #83BEBD;
-  padding: .5rem 1rem;
-  background: #444F50;
+  font-size: 3rem;
+  color: #1E1D1F;
+  padding: 0;
+  background: #b4d1c1;
+}
+
+ul {
+  margin: .5rem 0 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 .skillset-content {
+  text-align: center;
   font-family: 'Mitr', sans-serif;
-  color: #83BEBD;
+  font-weight: 500;
+  color: #333333;
   font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
