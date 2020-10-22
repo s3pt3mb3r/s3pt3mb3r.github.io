@@ -353,8 +353,6 @@ header div {
 
 .intro-wrapper {
   opacity: 100%;
-  -webkit-transform: translateX(-5rem);
-          transform: translateX(-5rem);
   margin-top: 4rem;
 }
 
