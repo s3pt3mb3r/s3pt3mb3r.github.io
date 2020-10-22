@@ -29,7 +29,7 @@ body {
           text-size-adjust: 100%;
 }
 
-.base {
+.anime-base {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -53,6 +53,16 @@ body {
   border-radius: 5px;
   margin-right: 50rem;
   z-index: 0;
+}
+
+.pre-base {
+  background: #323a3b;
+  position: relative;
+}
+
+.base {
+  position: absolute;
+  left: 0;
 }
 
 header, main {
