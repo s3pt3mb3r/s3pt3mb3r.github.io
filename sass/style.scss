@@ -20,10 +20,13 @@ body {
 }
 
 .base {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 0rem;
   height: 20rem;
-  background: $red;
+  background: $blue_gray;
   border-radius: 5px;
   margin-right: 50rem;
   z-index: 0;
