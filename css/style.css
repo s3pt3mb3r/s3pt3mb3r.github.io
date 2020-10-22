@@ -56,8 +56,14 @@ body {
 }
 
 .pre-base {
-  background: #323a3b;
+  background: #293030;
   position: relative;
+}
+
+.pre-base2 {
+  background: #323a3b;
+  position: absolute;
+  left: 0;
 }
 
 .base {
