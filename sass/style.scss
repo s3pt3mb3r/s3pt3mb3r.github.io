@@ -110,7 +110,7 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
     justify-content: center;
     border-radius: 3px;
     transition-property: transform;
-    transition-duration: 200ms;
+    transition-duration: 100ms;
     &:hover {
       transform: rotateZ(360deg);
     }
@@ -190,7 +190,7 @@ ul {
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 500;
-  color: $white_like;
+  color: #c7c7c7;
   font-size: 2rem;
   user-select: none;
 }

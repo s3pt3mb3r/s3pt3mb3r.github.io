@@ -155,8 +155,8 @@ header div {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .cover-1:hover {
@@ -205,8 +205,8 @@ header div {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .cover-2:hover {
@@ -255,8 +255,8 @@ header div {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .cover-3:hover {
@@ -305,8 +305,8 @@ header div {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .cover-4:hover {
@@ -355,8 +355,8 @@ header div {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .cover-5:hover {
@@ -469,7 +469,7 @@ ul {
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 500;
-  color: #FCF9E9;
+  color: #c7c7c7;
   font-size: 2rem;
   -webkit-user-select: none;
      -moz-user-select: none;
