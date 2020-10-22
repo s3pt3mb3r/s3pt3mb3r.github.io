@@ -19,69 +19,50 @@
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
 <body>
-  <div class="anime-base pre-base">
-    <div class="anime-base pre-base2"></div>
-    <div class="anime-base base"></div>
-    <header>
-      <div>
-        <img class="icon" src="img/skdesign.png">
-        <span class="name">S3pt3mb3r</span>
+  <div class="wrapper">
+    <div class="anime-base pre-base">
+      <div class="anime-base pre-base2"></div>
+      <div class="anime-base base"></div>
+      <header>
+        <div>
+          <img class="icon" src="img/skdesign.png">
+          <span class="name">S3pt3mb3r</span>
+        </div>
+      </header>
+      <section class="social-wrapper">
+        <div class="socials">
+        <div class="social github">
+          <a class="social-link" href="https://github.com/s3pt3mb3r" target="_blank" rel="noopener noreferrer">
+            <div class="anime-cover cover-1"></div>
+          </a>
+        </div>
+        <div class="social twitter">
+          <a class="social-link" href="https://twitter.com/0x_cpp" target="_blank" rel="noopener noreferrer">
+            <div class="anime-cover cover-2"></div>
+          </a>
+        </div>
+        <div class="social discord">
+          <a class="social-link" href="https://twitter.com/0x_cpp" target="_blank" rel="noopener noreferrer">
+            <div class="anime-cover cover-3"></div>
+          </a>
+        </div>
+        <div class="social steam">
+          <a class="social-link" href="https://steamcommunity.com/profiles/76561198320832594/" target="_blank" rel="noopener noreferrer">
+            <div class="anime-cover cover-4"></div>
+          </a>
+        </div>
+        <div class="social spotify">
+          <a class="social-link" href="https://open.spotify.com/user/uf8skymy6d6um9ya7vvtfv0i0?si=whB8DpywSvm1wJoy0mW5Lg" target="_blank" rel="noopener noreferrer">
+            <div class="anime-cover cover-5"></div>
+          </a>
+        </div>
       </div>
-    </header>
-    <main>
-      <div class="socials">
-      <div class="social github">
-        <a class="social-link" href="https://github.com/s3pt3mb3r" target="_blank" rel="noopener noreferrer">
-          <div class="anime-cover cover-1"></div>
-        </a>
-      </div>
-      <div class="social twitter">
-        <a class="social-link" href="https://twitter.com/0x_cpp" target="_blank" rel="noopener noreferrer">
-          <div class="anime-cover cover-2"></div>
-        </a>
-      </div>
-      <div class="social discord">
-        <a class="social-link" href="https://twitter.com/0x_cpp" target="_blank" rel="noopener noreferrer">
-          <div class="anime-cover cover-3"></div>
-        </a>
-      </div>
-      <div class="social steam">
-        <a class="social-link" href="https://steamcommunity.com/profiles/76561198320832594/" target="_blank" rel="noopener noreferrer">
-          <div class="anime-cover cover-4"></div>
-        </a>
-      </div>
-      <div class="social spotify">
-        <a class="social-link" href="https://open.spotify.com/user/uf8skymy6d6um9ya7vvtfv0i0?si=whB8DpywSvm1wJoy0mW5Lg" target="_blank" rel="noopener noreferrer">
-          <div class="anime-cover cover-5"></div>
-        </a>
-      </div>
-    </main>
+    </section>
     </div>
+    <section class="intro-wrapper">
+      <div class="intro-1"></div>
+    </section>
   </div>
-  <script>
-    var basicTimeline = anime.timeline();
-    basicTimeline.add({
-      targets: ".anime-base",
-      duration: 500,
-      width: "50rem",
-      marginRight: "0rem",
-      delay: (elm, i) => i * 100,
-      easing: "easeInOutSine",
-    })
-    .add({
-      targets: "header, main",
-      duration: 200,
-      opacity: "100%",
-      delay: 0,
-      easing: "easeInSine",
-    })
-    .add({
-      targets: ".anime-cover",
-      duration: 100,
-      width: "5rem",
-      delay: (elm, i) => i * 80,
-      easing: "easeInOutSine",
-    });
-  </script>
+  <script type="text/javascript" src="js/style.js"></script>
 </body>
 </html>

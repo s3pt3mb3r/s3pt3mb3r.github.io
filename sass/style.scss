@@ -11,12 +11,17 @@ html {
 body {
   width: 100%;
   height: 100vh;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: $background;
   text-size-adjust: 100%;
+}
+
+.wrapper {
+  margin-bottom: -25rem;
 }
 
 .anime-base {
@@ -48,7 +53,7 @@ body {
   left: 0;
 }
 
-header, main {
+header, .social-wrapper {
   opacity: 0%;
   z-index: 1;
 }
@@ -78,7 +83,7 @@ header div { //aligning the icon and the name
   color: $bright_blue;
 }
 
-//////////////////////////////BODY////////////////////////////////
+//////////////////////////////SOCIALWRAPPER////////////////////////////////
 
 .socials {
   display: flex;
@@ -129,4 +134,15 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
     opacity: 100;
     transform: translateX(0rem);
   }
+}
+
+//////////////////////////////INTRO////////////////////////////////
+
+.intro-1 {
+  width: 48.5rem;
+  height: 20rem;
+  border: 0.7rem solid $red;
+  border-radius: 5px;
+  margin-top: 4rem;
+  opacity: 0%;
 }
