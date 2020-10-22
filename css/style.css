@@ -93,16 +93,16 @@ header div {
 
 .icon {
   border-radius: 50%;
-  width: 6rem;
-  height: 6rem;
-  border: 0.4rem solid #DB3339;
+  width: 7rem;
+  height: 7rem;
+  border: 0.4rem solid #83BEBD;
   margin-right: 1rem;
 }
 
 .name {
-  font-family: 'Sriracha', cursive;
+  font-family: 'Lily Script One', cursive;
   font-size: 4rem;
-  color: #FCF9E9;
+  color: #83BEBD;
 }
 
 .socials {
