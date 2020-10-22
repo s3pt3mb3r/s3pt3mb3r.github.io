@@ -351,12 +351,43 @@ header div {
   }
 }
 
+.intro-wrapper {
+  opacity: 100%;
+  -webkit-transform: translateX(-5rem);
+          transform: translateX(-5rem);
+  margin-top: 4rem;
+}
+
 .intro-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 48.5rem;
   height: 20rem;
-  border: 0.7rem solid #DB3339;
+  border: 0.7rem solid #444F50;
   border-radius: 5px;
-  margin-top: 4rem;
-  opacity: 0%;
+}
+
+.skillset {
+  margin: -1px 0 0 0;
+  text-align: center;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #83BEBD;
+  padding: .5rem 1rem;
+  background: #444F50;
+}
+
+.skillset-content {
+  font-family: 'Mitr', sans-serif;
+  color: #83BEBD;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -29,9 +29,10 @@ basicTimeline.add({
     easing: "easeOutSine",
   })
   .add({
-    targets: ".intro-1",
+    targets: ".intro-wrapper",
     duration: 500,
     opacity: "100%",
+    translateX: ["-5rem", "0rem"],
     delay: 0,
     easing: "easeInOutSine",
   });

@@ -138,11 +138,34 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
 
 //////////////////////////////INTRO////////////////////////////////
 
+.intro-wrapper {
+  opacity: 100%;
+  transform: translateX(-5rem);
+  margin-top: 4rem;
+}
+
 .intro-1 {
+  display: flex;
+  flex-direction: column;
   width: 48.5rem;
   height: 20rem;
-  border: 0.7rem solid $red;
+  border: 0.7rem solid $blue_gray;
   border-radius: 5px;
-  margin-top: 4rem;
-  opacity: 0%;
+}
+
+.skillset {
+  margin: -1px 0 0 0;
+  text-align: center;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: $bright_blue;
+  padding: .5rem 1rem;
+  background: $blue_gray;
+}
+
+.skillset-content {
+  font-family: 'Mitr', sans-serif;
+  color: $bright_blue;
+  font-size: 2rem;
 }
