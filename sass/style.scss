@@ -31,19 +31,19 @@ body {
   align-items: center;
   width: 0rem;
   height: 20rem;
-  background: $blue_gray;
+  background:#cf874c;
   border-radius: 5px;
   margin-right: 50rem;
   z-index: 0;
 }
 
 .pre-base {
-  background:#293030;
+  background:#b95b33;
   position: relative;
 }
 
 .pre-base2 {
-  background:#323a3b;
+  background:#c0783d;
   position: absolute;
   left: 0;
 }
@@ -73,14 +73,14 @@ header div { //aligning the icon and the name
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  border: .4rem solid $bright_blue;
+  border: .4rem solid $white_like;
   margin-right: 1rem;
 }
 
 .name {
   font-family: 'Lily Script One', cursive;
   font-size: 4rem;
-  color: $bright_blue;
+  color: $white_like;
   user-select: none;
 }
 
@@ -109,6 +109,11 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
     align-items: center;
     justify-content: center;
     border-radius: 3px;
+    transition-property: transform;
+    transition-duration: 200ms;
+    &:hover {
+      transform: rotateZ(360deg);
+    }
     &::after {
       content: "";
       background-image: url(nth($icons, $i));
@@ -150,8 +155,8 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
   flex-direction: column;
   width: 48.5rem;
   height: 20rem;
-  border: 0.7rem solid  #b4d1c1;
-  background: #b4d1c1;
+  border: 0.7rem solid  #3d3d3d;
+  background:#3d3d3d;
   border-radius: 5px;
 }
 
@@ -163,8 +168,8 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
   font-weight: 600;
   font-size: 3rem;
   user-select: none;
-  color: $background;
-  background: #b4d1c1;
+  color: $white_like;
+  background: #3d3d3d;
 }
 
 .fa-spider {
@@ -185,7 +190,7 @@ ul {
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 500;
-  color:  #333333;
+  color: $white_like;
   font-size: 2rem;
   user-select: none;
 }

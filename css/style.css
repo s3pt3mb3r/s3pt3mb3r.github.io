@@ -54,19 +54,19 @@ body {
           align-items: center;
   width: 0rem;
   height: 20rem;
-  background: #444F50;
+  background: #cf874c;
   border-radius: 5px;
   margin-right: 50rem;
   z-index: 0;
 }
 
 .pre-base {
-  background: #293030;
+  background: #b95b33;
   position: relative;
 }
 
 .pre-base2 {
-  background: #323a3b;
+  background: #c0783d;
   position: absolute;
   left: 0;
 }
@@ -100,14 +100,14 @@ header div {
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  border: 0.4rem solid #83BEBD;
+  border: 0.4rem solid #FCF9E9;
   margin-right: 1rem;
 }
 
 .name {
   font-family: 'Lily Script One', cursive;
   font-size: 4rem;
-  color: #83BEBD;
+  color: #FCF9E9;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -151,6 +151,17 @@ header div {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 3px;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.cover-1:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
 }
 
 .cover-1::after {
@@ -190,6 +201,17 @@ header div {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 3px;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.cover-2:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
 }
 
 .cover-2::after {
@@ -229,6 +251,17 @@ header div {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 3px;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.cover-3:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
 }
 
 .cover-3::after {
@@ -268,6 +301,17 @@ header div {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 3px;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.cover-4:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
 }
 
 .cover-4::after {
@@ -307,6 +351,17 @@ header div {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 3px;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.cover-5:hover {
+  -webkit-transform: rotateZ(360deg);
+          transform: rotateZ(360deg);
 }
 
 .cover-5::after {
@@ -373,8 +428,8 @@ header div {
           flex-direction: column;
   width: 48.5rem;
   height: 20rem;
-  border: 0.7rem solid  #b4d1c1;
-  background: #b4d1c1;
+  border: 0.7rem solid  #3d3d3d;
+  background: #3d3d3d;
   border-radius: 5px;
 }
 
@@ -389,15 +444,15 @@ header div {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: #1E1D1F;
-  background: #b4d1c1;
+  color: #FCF9E9;
+  background: #3d3d3d;
 }
 
 .fa-spider {
   -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 200ms;
-          transition-duration: 200ms;
+  -webkit-transition-duration: 150ms;
+          transition-duration: 150ms;
 }
 
 .fa-spider:hover {
@@ -414,7 +469,7 @@ ul {
   text-align: center;
   font-family: 'Mitr', sans-serif;
   font-weight: 500;
-  color: #333333;
+  color: #FCF9E9;
   font-size: 2rem;
   -webkit-user-select: none;
      -moz-user-select: none;
