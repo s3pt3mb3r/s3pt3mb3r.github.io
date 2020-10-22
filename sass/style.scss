@@ -16,17 +16,17 @@ body {
   justify-content: center;
   align-items: center;
   background: $background;
-  position: relative;
+  text-size-adjust: 100%;
 }
 
 .base {
   position: absolute;
   width: 0rem;
   height: 20rem;
-  background: $blue_gray;
+  background: $red;
   border-radius: 5px;
-  z-index: 0;
   margin-right: 50rem;
+  z-index: 0;
 }
 
 header, main {

@@ -23,17 +23,20 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #1E1D1F;
-  position: relative;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 .base {
   position: absolute;
   width: 0rem;
   height: 20rem;
-  background: #444F50;
+  background: #DB3339;
   border-radius: 5px;
-  z-index: 0;
   margin-right: 50rem;
+  z-index: 0;
 }
 
 header, main {
