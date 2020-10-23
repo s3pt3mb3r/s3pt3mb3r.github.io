@@ -24,7 +24,7 @@ basicTimeline.add({
   .add({
     targets: ".wrapper",
     duration: 400,
-    translateY: "-30vh",
+    translateY: "-15vh",
     delay: 0,
     easing: "easeOutSine",
   })
