@@ -30,9 +30,9 @@ basicTimeline.add({
   })
   .add({
     targets: ".intro-wrapper",
-    duration: 500,
+    duration: 400,
     opacity: "100%",
-    translateX: ["-5rem", "0rem"],
+    translateX: ["-4rem", "0rem"],
     delay: 0,
     easing: "easeInOutSine",
   });
@@ -41,7 +41,4 @@ $(".skillset span").hover(
   function () {
     $(".fa-spider").css("color", "#DB3339");
   },
-  function () {
-    $(".fa-spider").css("color", "#FCF9E9");
-  }
 );

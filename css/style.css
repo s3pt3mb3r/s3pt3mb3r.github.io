@@ -135,11 +135,8 @@ p.email {
   border-radius: 10px;
 }
 
-p.email span {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+.fa-envelope {
+  margin-right: .5rem;
 }
 
 .icon {
@@ -502,8 +499,8 @@ p.email span {
 .fa-spider {
   -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 150ms;
-          transition-duration: 150ms;
+  -webkit-transition-duration: 130ms;
+          transition-duration: 130ms;
 }
 
 ul {

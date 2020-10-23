@@ -94,8 +94,8 @@ p.email {
   border-radius: 10px;
 }
 
-p.email span {
-  user-select: none;
+.fa-envelope {
+  margin-right: .5rem;
 }
 
 .icon {
@@ -205,7 +205,7 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
 
 .fa-spider {
   transition-property: color;
-  transition-duration: 150ms;
+  transition-duration: 130ms;
 }
 
 ul {
