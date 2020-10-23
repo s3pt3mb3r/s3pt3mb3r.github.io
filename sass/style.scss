@@ -58,6 +58,10 @@ header, .social-wrapper {
   z-index: 1;
 }
 
+img {
+  pointer-events: none;
+}
+
 //////////////////////////////HEADER////////////////////////////////
 
 header {
@@ -66,7 +70,32 @@ header {
 
 header div { //aligning the icon and the name
   display: flex;
+  flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+header div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+p.email {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  color: $white_like;
+  font-size: 1.1rem;
+  font-family: 'Mitr', sans-serif;
+  background: #ce673a;
+  padding: 0 1rem;
+  border-radius: 10px;
+}
+
+p.email span {
+  user-select: none;
 }
 
 .icon {
@@ -75,6 +104,7 @@ header div { //aligning the icon and the name
   height: 7rem;
   border: .4rem solid $white_like;
   margin-right: 1rem;
+  user-select: none;
 }
 
 .name {
