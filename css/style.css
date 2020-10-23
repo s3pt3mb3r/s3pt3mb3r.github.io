@@ -162,6 +162,7 @@ p.email span {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  margin-bottom: 2rem;
 }
 
 .socials {
@@ -503,10 +504,6 @@ p.email span {
   transition-property: color;
   -webkit-transition-duration: 150ms;
           transition-duration: 150ms;
-}
-
-.fa-spider:hover {
-  color: #DB3339;
 }
 
 ul {

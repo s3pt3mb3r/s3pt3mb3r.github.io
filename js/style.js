@@ -36,3 +36,12 @@ basicTimeline.add({
     delay: 0,
     easing: "easeInOutSine",
   });
+
+$(".skillset span").hover(
+  function () {
+    $(".fa-spider").css("color", "#DB3339");
+  },
+  function () {
+    $(".fa-spider").css("color", "#FCF9E9");
+  }
+);

@@ -112,6 +112,7 @@ p.email span {
   font-size: 4rem;
   color: $white_like;
   user-select: none;
+  margin-bottom: 2rem;
 }
 
 //////////////////////////////SOCIALWRAPPER////////////////////////////////
@@ -205,9 +206,6 @@ $icons: "../img/github.svg", "../img/twitter.svg", "../img/discord.svg", "../img
 .fa-spider {
   transition-property: color;
   transition-duration: 150ms;
-  &:hover {
-    color: $red;
-  }
 }
 
 ul {
