@@ -35,6 +35,20 @@ basicTimeline.add({
     translateY: ["2rem", "0rem"],
     delay: 0,
     easing: "easeInOutSine",
+  })
+  .add({
+    targets: ".fa-spider",
+    duration: 300,
+    delay: 0,
+    easing: "easeInOutSine",
+    color: "#DB3339",
+  })
+  .add({
+    targets: ".fa-spider",
+    duration: 600,
+    delay: 300,
+    easing: "easeInOutSine",
+    color: "#FCF9E9",
   });
 
 $(".skillset span").hover(
